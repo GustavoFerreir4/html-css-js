@@ -1,0 +1,26 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto{
+    margin: 20px;
+    border: 1px solid black;
+    width: 20vw;
+    font-size: 1rem;
+}
+
+.nome{
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.imagem-produto > img{
+    width: 100%;
+}
+
